@@ -1,0 +1,91 @@
+/* App.css */
+
+/* General layout */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Form Styling */
+.url-input-box {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 16px;
+  background: #fff;
+  margin-bottom: 16px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.btn-submit {
+  margin-top: 20px;
+}
+
+.success-alert {
+  margin-top: 16px;
+}
+
+.form-header {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* Table Styling for Stats */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-top: 20px;
+  table-layout: fixed; 
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+td:first-child {
+  max-width: 200px;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  text-align: left;
+}
+
+/* Table header */
+th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+}
+
+/* Alternate row shading */
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Specific cells */
+.qr-cell {
+  min-width: 110px;
+}
+
+.copy-cell {
+  min-width: 80px;
+}
+
+/* Link hover */
+a:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+  color: black;
+}

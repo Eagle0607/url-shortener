@@ -1,0 +1,77 @@
+/* Basic Reset */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Table Styling */
+.MuiTable-root {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* ensures even distribution */
+}
+
+.MuiTableCell-root {
+  border: 1px solid #ccc !important;
+  text-align: center;
+  padding: 12px !important;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.MuiTableCell-root:first-child {
+  max-width: 400px;
+  white-space: normal;
+  word-break: break-word;
+  text-align: left;
+}
+
+
+.MuiTableHead-root .MuiTableCell-head {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+
+.MuiTableBody-root tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+
+.qr-cell {
+  min-width: 110px;
+}
+
+.copy-cell {
+  min-width: 80px;
+}
+
+/* Link hover effect */
+a:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+  color: #000;
+}
+
+.MuiTableCell-root:nth-child(2) {
+  max-width: 280px;
+  white-space: normal;
+  word-break: break-word;
+  text-align: left;
+}
